@@ -1,0 +1,35 @@
+/* MainPage.css */
+
+.main-container {
+  display:inline-flex;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.auth-area {
+  background-image: url('bookstore.jpg');
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.nav-bar{
+    width: 100%;
+  }
+
+
+  .main-container {
+    flex-direction: column;
+  }
+
+  .auth-area {
+    /* align-items: center; */
+    padding-top: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+

@@ -1,0 +1,38 @@
+.category-home {
+  padding: 2rem 2rem 2rem 2rem;
+  background-color: #061539;
+  min-height: 100vh;
+  width: 100vw;
+  color: #fa9e27;
+}
+
+.category-heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.category-card {
+  background-color: #ffffff;
+  color: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+  background-color: aquamarine;
+}
+
+.category-image {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
